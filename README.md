@@ -1,4 +1,4 @@
-holy-grail 
+holy-grail [![Build Status](https://travis-ci.org/nsarno/holy-grail.svg?branch=master)](https://travis-ci.org/nsarno/holy-grail)
 ==========
 
 Template of a fully separated Rails API and AngularJS client with CORS enabled.
