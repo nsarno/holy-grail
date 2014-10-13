@@ -1,9 +1,6 @@
 holy-grail 
 ==========
 
-[ ![Codeship Status for nsarno/holy-grail](https://codeship.io/projects/f073a9d0-3521-0132-be58-5a23f417d8f3/status)](https://codeship.io/projects/40946)
-
-
 Template of a fully separated Rails API and AngularJS client with CORS enabled.
 
 This is only intended as a proof of concept and it's far from perfect. If you see possible improvements, I'm open to suggestions :)
