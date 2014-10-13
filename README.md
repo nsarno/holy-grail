@@ -52,4 +52,3 @@ $ gulp serve
 
 [Cookies vs Tokens. Getting auth right with Angular.JS](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 
-
