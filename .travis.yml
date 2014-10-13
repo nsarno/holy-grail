@@ -3,7 +3,6 @@ rvm:
   - 2.1.2
 env:
   - TEST_DIR=backend
-  - RAILS_ENV=test
 before_script:
   - cd $TEST_DIR && bundle exec rake db:create
 script:
