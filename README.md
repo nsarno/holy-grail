@@ -1,11 +1,16 @@
-holy-grail
+holy-grail 
 ==========
 
-Template of a fully separated rails API and AngularJS client with CORS
+[ ![Codeship Status for nsarno/holy-grail](https://codeship.io/projects/f073a9d0-3521-0132-be58-5a23f417d8f3/status)](https://codeship.io/projects/40946)
 
-# Getting Started
 
-## Backend
+Template of a fully separated Rails API and AngularJS client with CORS enabled.
+
+This is only intended as a proof of concept and it's far from perfect. If you see possible improvements, I'm open to suggestions :)
+
+## Getting Started
+
+### Backend
 
 ```
 $ cd backend
@@ -20,7 +25,7 @@ $ rake db:create && rake db:migrate && rake db:seed
 $ unicorn
 ```
 
-## Frontend
+### Frontend
 
 ```
 # install Node modules from package.json
@@ -32,3 +37,19 @@ $ bower install
 # run the server
 $ gulp serve
 ```
+
+## Resources
+
+### Backend
+
+*TODO: List the resources used in the backend*
+
+### Frontend
+
+*TODO: List the resources used in the frontend*
+
+## References
+
+[Cookies vs Tokens. Getting auth right with Angular.JS](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
+
+
