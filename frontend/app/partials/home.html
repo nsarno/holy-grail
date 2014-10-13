@@ -1,0 +1,16 @@
+<div class="container" ng-controller="HomeController">
+  <h1>Holy Grail</h1>
+  <span></span>
+  <div ng-if="!authenticated">
+    <form ng-submit="login(user)">
+      <input ng-model="user.email" type="text" name="user" placeholder="Username" />
+      <input ng-model="user.password" type="password" name="pass" placeholder="Password" />
+      <input type="submit" value="Login" />
+    </form>
+  </div>
+  <div ng-if="authenticated">
+    <h1>Welcome {{ user.email }}!</h1>
+    <button ng-click="logout()">logout</button>
+  </div>
+</div>
+
